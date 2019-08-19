@@ -29,17 +29,17 @@ To create a ReactJS project:
 `yarn create react-app {past}`
 
 Login Screen:
-![LoginWeb](https://i.imgsafe.org/9c/9c74808a68.png)
+![LoginWeb](https://i.imgsafe.org/af/aff47f0122.png)
 
 Main Screen:
-![MainWeb](https://gph.is/g/apVbndB)
+![MainWeb](https://media.giphy.com/media/jql75lM1OI4LBooxYp/giphy.gif)
 
 ## React Native ##
 To create a React Native project:
 `npx react-native init {past}`
 
 Login Screen:
-![LoginMobile](https://i.imgsafe.org/9c/9c86ab8fd4.png)
+![LoginMobile](https://i.imgsafe.org/af/affb11b34e.png)
 
 Main Screen:
-![MainMobile](https://gph.is/g/ajyW0xn)
+![MainMobile](https://media.giphy.com/media/VbQG89YbtTPZz9f22G/giphy.gif)
