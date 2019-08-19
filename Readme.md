@@ -22,10 +22,12 @@ To install NodeJS:
  - [MacOS](https://nodejs.org/en/download/package-manager/#macos)
 
 To create a NodeJS project:
+
 `yarn init`
 
 ## ReactJS ##
 To create a ReactJS project:
+
 `yarn create react-app {past}`
 
 Login Screen:
@@ -38,12 +40,9 @@ Main Screen:
 
 ## React Native ##
 To create a React Native project:
+
 `npx react-native init {past}`
 
-Login Screen:
-
-![LoginMobile](https://i.imgsafe.org/af/affb11b34e.png)
-
-Main Screen:
+Login and main Screens:
 
 ![MainMobile](https://media.giphy.com/media/VbQG89YbtTPZz9f22G/giphy.gif)
