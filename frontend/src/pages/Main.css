@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+.main-container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-container ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* repeat vai repetir "1fr" 3 vezes | repeat(3, 1fr) = 1fr 1fr 1fr */
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+
+.main-container ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container ul li img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.main-container footer {
+    flex: 1;
+    background: #FFF;
+    padding: 15px 20px;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+}
+
+.main-container footer strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.main-container footer p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.main-container ul li .buttons {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.main-container ul li .buttons button {
+    height: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background: #FFF;
+}
+
+.main-container ul li .buttons button:hover img {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
+
+.main-container .empty {
+    font-size: 32px;
+    color: #999;
+    font-weight: bold;
+    margin-top: 300px;
+}
+
+/* Match style: */
+
+.match-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.match-container .avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    margin: 30px 0;
+}
+
+.match-container .username {
+    font-weight: bolder;
+    font-size: 32px;
+    color: #FFF;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+.match-container .bio {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 400px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    text-align: center;
+}
+
+.match-container button {
+    border: 0;
+    padding: 10px;
+    background: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.match-container button:hover {
+    background-color: rgba(100, 100, 100, 0.5);
+}

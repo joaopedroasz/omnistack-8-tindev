@@ -1,0 +1,20 @@
+3 maiores conceitos do ReactJS:
+
+1º -> Componente:
+Componentes são partes isoladas de código, geralmente uma função, que retornam um HTML que será exibido no navegador.
+Saber manipular os componentes é muito importante.
+
+2º -> Estado:
+Saber manipular as variáveis que farão parte do componente é muito importante.
+É através dessas variáveis que as informações poderão ser apresentadas.
+
+3º -> Propriedades:
+Cada tag HTML tem suas propriedades, e cada componente será utilizado coma uma tag.
+É possível criar nossas próprias propriedades para cada componente quando necessário.
+Como cada componente é uma função, as propriedades são os parâmetros da função.
+EX:
+<Componente propriedade1="x" />
+
+export default function Componente(props){
+    props.x; // Pegando o valor da propriedade
+}

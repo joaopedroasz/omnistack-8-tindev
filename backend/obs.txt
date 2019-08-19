@@ -1,0 +1,8 @@
+Boas práticas no desenvolvimento com o padrão MVC:
+ - Ter 5 métodos em cada Controller:
+
+* INDEX: Método que retorna uma lista do recurso disponível.
+* SHOW: Método que retorna um recurso específico.
+* STORE: Método que cria um recurso.
+* UPDATE: Mudar algo do recurso.
+* DELETE: Deletar um recurso.
