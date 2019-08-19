@@ -29,9 +29,11 @@ To create a ReactJS project:
 `yarn create react-app {past}`
 
 Login Screen:
+
 ![LoginWeb](https://i.imgsafe.org/af/aff47f0122.png)
 
 Main Screen:
+
 ![MainWeb](https://media.giphy.com/media/jql75lM1OI4LBooxYp/giphy.gif)
 
 ## React Native ##
@@ -39,7 +41,9 @@ To create a React Native project:
 `npx react-native init {past}`
 
 Login Screen:
+
 ![LoginMobile](https://i.imgsafe.org/af/affb11b34e.png)
 
 Main Screen:
+
 ![MainMobile](https://media.giphy.com/media/VbQG89YbtTPZz9f22G/giphy.gif)
